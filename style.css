@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: rgb(175, 166, 156);
+    background-color: rgb(180, 177, 173);
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -14,8 +14,11 @@ header {
     text-align: center;
 }
 
-img {
-    border-radius: 50px 50px 50px 50px;
+.eu {
+    border: 7px solid;
+    border-radius: 180px 180px 180px 180px;
+    border-style: groove;
+    border-color: aqua;
 }
 
 .nome {
@@ -59,10 +62,22 @@ h2 {
 
 }
 
-.mail {
-    margin-right: 10%;
+.rodape {
+    background-color: rgb(84, 83, 77);
+    bottom: 0;
+}
+.zaps{
+    display:flex;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    gap: 5px;
+    padding: 10px;
+    text-align: center;
 }
 
-.rodape {
-    background-color: rgb(138, 124, 107);
+#nav-bar{
+    padding:lem 8m;
+    background-color: aliceblue;
+    box-shadow: 0 2px 2px rgba(151, 151, 151);
+    position: relative;
+    top: 0;
 }
