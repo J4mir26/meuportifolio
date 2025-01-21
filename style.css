@@ -1,11 +1,11 @@
 body {
-    background: linear-gradient(217deg, #5c7088, #5c7088 70%), linear-gradient(127deg, #5c7088, #37c8c800 70%), linear-gradient(336deg, rgba(0, 0, 255, .9), rgba(0, 0, 255, .0) 70%);
+    background: linear-gradient(217deg, rgb(92, 112, 136), rgb(92, 112, 136) 70%), linear-gradient(127deg, rgb(92, 112, 136), rgba(55, 200, 200, 0) 70%), linear-gradient(336deg, rgba(0, 0, 255, .9), rgba(0, 0, 255, .0) 70%);
     font-family: Arial;
 
 }
 
 header {
-    background-color: #afa69c;
+    background-color: rgb(175, 166, 156);
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -66,5 +66,5 @@ h2 {
 }
 
 .rodape {
-    background-color: #8A7C6B;
+    background-color: rgb(138, 124, 107);
 }
